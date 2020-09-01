@@ -10,8 +10,8 @@ The result is a list of who everyone is gifting in number format. You can organi
 ## Why did I make this
 There are several websites that provide Secret Santa assigments, but in this case I wanted a model where everyone could buy or make 5 gifts of a certain value - generic but useful gifts that are good for anyone. The aim of this Secret Santa was to provide artistic and useful stuff, no tat allowed. In particular we didn't want plastic waste.
 
-## Version 3 and 4.5 versions
-Secret Santa 3 was the third iteration of the project. The first two mimicked picking names out of a hats etc, which are flawed methods as seen in numberphile's video.
+## Difference between version 3 and version 4.5
+Secret Santa 3 was the third iteration of the project. The first two mimicked picking names out of a hats etc, which are flawed methods as seen in numberphile's video. Version 3 therefore follows the method shown in the video, "shifting" tickets along.
 
 Secret Santa 4.5 also allows different numbers of gifts per person. If everyone in a group of 15 has been assigned to give and receive 3 gifts, but one person turns up with only one gift, they can still participate as this function can assign the "awkward" person one person to give to, and will also only be assigned to one other person.
 
