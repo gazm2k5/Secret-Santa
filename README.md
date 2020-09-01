@@ -15,6 +15,12 @@ Secret Santa 3 was the third iteration of the project. The first two mimicked pi
 
 Secret Santa 4.5 also allows different numbers of gifts per person. If everyone in a group of 15 has been assigned to give and receive 3 gifts, but one person turns up with only one gift, they can still participate as this function can assign the "awkward" person one person to give to, and will also only be assigned to one other person.
 
+## How to run
+Simply run either of the two Python versions in Python 3.8 or higher. It has a simple console output. The last line in the file runs the functions, so you pass in how many people there are in the group, and how many gifts each person will gift/receive.
+
+For version 4.5, any numbers after the first 2 arguments are the number of gifts awkward people have, so if there are 12 people in the group and you have agreed to gift 5 times each, but one person has turned up with 3 gifts, and another with only 1 gift you can run: `secretSanta(12, 5, 1, 3)`
+
+
 ## Error checking
 There are a few sanity check functions built in to let you know that everyone has been assigned the correct number of gifts, and that no one has incorrectly been assigned themselves, or that one person has been assigned to gift the same person twice.
 
