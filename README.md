@@ -1,14 +1,17 @@
 # Secret-Santa
 Python code to assign Secret Santa gifts. It can be double blind (you don't know who you're giving to or who you're recieving from) and can facilitate each  gifting multiple gifts.
 
+## Web version
+I have made a web app version of this code, which is much more user friendly. Ignore the rest of this page and go here: https://www.sunfire.xyz/secret-santa/ unless you want to see the code.
+
 ## Numberphile's "The Problems with Secret Santa"
-The method was based off of Hannah Fry's explanation: https://www.youtube.com/watch?v=5kC5k5QBqcc
+The algorithm was based off of Hannah Fry's explanation: https://www.youtube.com/watch?v=5kC5k5QBqcc
 The code mimics everyone being assigned a number. Their number is also written down on a piece of paper X times, then split between other people in the group with a "shifting" method.
 
 The result is a list of who everyone is gifting in number format. You can organise neat piles with number labels, and everyone goes round putting their gifts down in the assigned pile. This would make it double blind, as you wouldn't know who you're gifting, or who has given gifts to you.
 
 ## Why did I make this
-There are several websites that provide Secret Santa assigments, but in this case I wanted a model where everyone could buy or make 5 gifts of a certain value - generic but useful gifts that are good for anyone. The aim of this Secret Santa was to provide artistic and useful stuff, no tat allowed. In particular we didn't want plastic waste.
+See https://www.sunfire.xyz/secret-santa/ for explanation of why this is a better Secret Santa method.
 
 ## Difference between version 3 and version 4.5
 Secret Santa 3 was the third iteration of the project. The first two mimicked picking names out of a hats etc, which are flawed methods as seen in numberphile's video. Version 3 therefore follows the method shown in the video, "shifting" tickets along.
